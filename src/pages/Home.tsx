@@ -7,6 +7,7 @@ import { useAuth } from '../context/AuthContext';
 
 const categories = [
   { name: 'Construction', icon: HomeIcon, slug: 'construction', color: 'bg-blue-50 text-blue-600' },
+  { name: 'Welding&Grills', icon: HomeIcon, slug: 'Welding&Grills', color: 'bg-Gold-50 text-blue-600' },
   { name: 'Painting', icon: Paintbrush, slug: 'painting', color: 'bg-pink-50 text-pink-600' },
   { name: 'Woodwork', icon: Drill, slug: 'woodwork', color: 'bg-amber-50 text-amber-600' },
   { name: 'Granite & Tiles', icon: Grid, slug: 'granite-tiles', color: 'bg-slate-50 text-slate-600' },
@@ -17,6 +18,9 @@ const categories = [
   { name: 'Borewell', icon: Drill, slug: 'borewell', color: 'bg-orange-50 text-orange-600' },
   { name: 'AC & Fridge', icon: Wind, slug: 'ac-fridge', color: 'bg-teal-50 text-teal-600' },
   { name: 'Water Purifier', icon: GlassWater, slug: 'water-purifier', color: 'bg-sky-50 text-sky-600' },
+  { name: 'Book Event Services', icon: Event, slug: 'Book Event services', color: 'bg-sky-50 text-purple-600' },
+  { name: 'Physiotherapy', icon: Event, slug: 'Physiotherapy', color: 'bg-sky-50 text-Green-600' },
+  
 ];
 
 export default function Home() {
