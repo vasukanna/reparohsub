@@ -399,6 +399,9 @@ export default function AdminDashboard() {
                     <option value="plumbing">Plumbing</option>
                     <option value="electrical">Electrical</option>
                     <option value="cleaning">Cleaning</option>
+                    <option value="event-services">Book Event Services</option>
+                    <option value="physiotherapy">Physiotherapy</option>
+                    <option value="welding-grills">Welding & Grills</option>
                     <option value="borewell">Borewell</option>
                     <option value="ac-fridge">AC & Fridge</option>
                     <option value="water-purifier">Water Purifier</option>
